@@ -10,6 +10,7 @@ void convertToBinary(int n, bool binaryNum[]) {
     int i = 0;
     while (n > 0) {
 
+
         // storing remainder in binary array
         binaryNum[i] = n & 1;
         n = n >> 1;

@@ -18,6 +18,7 @@ void convert_to_text(bool *message, int size, char *fileName);
 //TODO:extract_bit
 bool* extract_bit(char *image_name,int size);
 
+
 void main(int argc, char **argv){
 
     char * image_name =argv[1];
